@@ -996,7 +996,6 @@ import 'dart:async';
 
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
-**บันทึกรูปผลการทดลอง**
 
 ---
 

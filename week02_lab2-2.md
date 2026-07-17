@@ -1,4 +1,4 @@
-# ใบงานการทดลองที่ 2-2
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/99a2ed75-5724-4ccd-9783-4975e8b23e3b" /># ใบงานการทดลองที่ 2-2
 # Flutter Framework Basics
 ### วิชา: การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่
 
@@ -737,9 +737,8 @@ class _CounterSectionState extends State<CounterSection> {
 
 **ขั้นตอนที่ 3** บันทึกและทดลองกดปุ่ม +, -, Reset และสลับ Step
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 21 51 26" src="https://github.com/user-attachments/assets/5e49a7fe-b290-4a3b-9182-c0a3de51d3bb" />
+
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -747,9 +746,8 @@ class _CounterSectionState extends State<CounterSection> {
 > **สิ่งที่เกิดขึ้น:** เมื่อไม่มี `setState()` ค่า `_count` เปลี่ยนในหน่วยความจำจริง แต่ Flutter ไม่รู้ว่าต้อง rebuild UI ทำให้หน้าจอยังแสดงค่าเดิม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 21 58 19" src="https://github.com/user-attachments/assets/a6c1850e-ba16-4a15-97b6-420def88ce4b" />
+
 ---
 
 ### การทดลองที่ 5 — StatefulWidget: Form และ Text Input

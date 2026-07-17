@@ -1453,20 +1453,21 @@ colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
 
 | | หลัง Hot Reload |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+|รูปภาพ|<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 23 56 35" src="https://github.com/user-attachments/assets/67750645-bfc3-4823-9605-aaabf2acd238" />|
+| สี Theme |สีเขียวอมฟ้า (Teal)|
+| ค่า Counter |จำนวน 15 คงเดิม|
 
 **ขั้นตอนที่ 5** กด **Hot Restart** (พิมพ์ `R` ใน Terminal หรือกด 🔄)
-
 | | หลัง Hot Restart |
 |--|--|
-| สี Theme | |
-| ค่า Counter | |
+|รูปภาพ|<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-18 เวลา 00 02 11" src="https://github.com/user-attachments/assets/11a075fa-c027-429b-a038-30d9ed724ede" />|
+| สี Theme |สีเขียวอมฟ้า (Teal)|
+| ค่า Counter |เริ่มต้นใหม่ จำนวน 0|
 
 **ขั้นตอนที่ 6** อธิบายผลลัพธ์:
 
-> Hot Reload: สี __________ Counter __________ เพราะ __________
-> Hot Restart: สี __________ Counter __________ เพราะ __________
+> - Hot Reload: สี เปลี่ยนตามโค้ดใหม่ Counter ยังคงจำค่าเดิมไว้ เพราะ Hot Reload จะอัปเดตเฉพาะโค้ดของ Widget ที่เปลี่ยนไป แต่จะรักษา State (หน่วยความจำของแอป) เอาไว้ ทำให้ค่าตัวเลขวิ่งต่อไปได้โดยไม่ต้องเริ่มนับหนึ่งใหม่
+> - Hot Restart: สี เปลี่ยนตามโค้ดใหม่ Counter ถูกรีเซ็ตกลับไปเป็นค่าเริ่มต้น (กลับไปเป็น 0) เพราะ Hot Restart จะทำการทำลายโครงสร้างและ State เดิมทั้งหมดในหน่วยความจำ แล้วเริ่มต้นแอปพลิเคชันใหม่ตั้งแต่ศูนย์เหมือนเพิ่งเปิดแอปขึ้นมาครั้งแรก
 
 ---
 

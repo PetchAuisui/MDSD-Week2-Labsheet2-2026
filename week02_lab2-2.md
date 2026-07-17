@@ -875,11 +875,12 @@ class _GreetingFormState extends State<GreetingForm> {
 **ขั้นตอนที่ 3** บันทึกและทดสอบ — กรอกชื่อแล้วกดปุ่ม
 
 **บันทึกรูปผลการทดลอง**
-```
-บันทึกรูปที่นี่
-```
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 22 15 48" src="https://github.com/user-attachments/assets/452bc530-8cf2-4d3f-926e-c325ac94bea3" />
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
+**บันทึกรูปผลการทดลอง**
+<img width="1470" height="956" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 22 19 52" src="https://github.com/user-attachments/assets/bebc86fc-e269-4512-ad06-ddcb26108aa6" />
+<img width="1920" height="1080" alt="ภาพถ่ายหน้าจอ 2569-07-17 เวลา 22 19 52 (2)" src="https://github.com/user-attachments/assets/acc488fe-3350-4153-9e2d-c8d3ea3c328c" />
 
 ---
 
